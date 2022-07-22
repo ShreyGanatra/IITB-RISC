@@ -1,0 +1,24 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/sign_extender_6.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/register_data.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/PriorityEncoder.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/inst_register_data.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/data_extension.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/continue_decoder.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/all_components.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/RISC.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/Shifter.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/Toplevel.vhdl}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/alu.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/sign_extender_9.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/reg_file.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/memory.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/instruction_register.vhd}
+vcom -93 -work work {C:/Users/ganat/Downloads/RISC_final/final_final/RISC/data_path.vhd}
+
